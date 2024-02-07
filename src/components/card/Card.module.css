@@ -1,0 +1,33 @@
+.cardsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.cardsContent p {
+  font-family: "Karla", sans-serif;
+  color: hsl(273, 4%, 51%);
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cardsContent h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+@media (min-width: 1440px) {
+  .cardsContent {
+    display: flex;
+  }
+  .cardsContent h1 {
+    text-align: start;
+  }
+  .cardsContent p {
+    text-align: start;
+  }
+}
