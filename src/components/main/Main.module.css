@@ -25,10 +25,13 @@ h1 {
   padding: 10px 27px;
   text-transform: uppercase;
 }
-.img {
-  width: 375px;
-  height: 451px;
+.btn:hover {
+  background: hsl(0, 0%, 98%);
+  color: hsl(256, 26%, 20%);
+  font-weight: 600;
+  cursor: pointer;
 }
+
 .banner {
   position: relative;
 }
@@ -98,12 +101,22 @@ h1 {
 }
 
 @media (min-width: 1440px) {
-  .cards{
+  .cards {
     flex-direction: row;
     display: flex;
     margin-left: 120px;
     margin-right: 120px;
     margin-bottom: 120px;
   }
-
+  .content {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 100px;
+  }
+  .banner {
+    display: flex;
+    position: relative;
+    background: hsl(256, 26%, 20%);
+  }
 }

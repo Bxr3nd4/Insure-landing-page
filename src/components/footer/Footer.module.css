@@ -16,11 +16,12 @@
   margin: 3px 0 15px;
 }
 
-.social hr {
+hr {
   background-color: hsl(273, 4%, 51%, 0.4);
   height: 1px;
-  width: 335px;
+  width: 350px;
   border: none;
+  margin-left: 10px;
 }
 
 .links {
@@ -83,5 +84,18 @@ h2 {
   .social {
     padding-left: 150px;
   }
-
+  .socialMedia {
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 150px;
+  }
+  hr {
+    background-color: hsl(273, 4%, 51%, 0.4);
+    height: 1px;
+    width: 1250px;
+    border: none;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
 }
